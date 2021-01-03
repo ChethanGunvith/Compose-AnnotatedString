@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="Info_Agree">You agree to have read and accepted our {terms_and_conditions}, {required_documents}, {industry_terms}, and {privacy_policy}.
+    </string>
+    <string name="Info_Terms_Conditions">Terms and Conditions</string>
+    <string name="Info_Docs">Required  Documents</string>
+    <string name="Info_Industry_Terms">Industry Terms</string>
+    <string name="Info_Privacy_Policy">Privacy Policy</string>
+
+</resources>

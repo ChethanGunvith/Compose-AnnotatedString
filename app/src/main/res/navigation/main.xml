@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            app:startDestination="@id/homeFragment">
+
+
+	<fragment
+		android:id="@+id/homeFragment"
+		android:name="com.chethan.myapplication.HomeFragment"
+		android:label="HomeFragment">
+
+		<action
+			android:id="@+id/showTermsConditionFragment"
+			app:destination="@id/termsConditionFragment" />
+
+		<action
+			android:id="@+id/showPrivacyFragment"
+			app:destination="@id/privacyFragment" />
+
+
+	</fragment>
+
+	<fragment
+		android:id="@+id/termsConditionFragment"
+		android:name="com.chethan.myapplication.TermsConditionFragment"
+		android:label="termsConsitionFragment">
+
+	</fragment>
+
+	<fragment
+		android:id="@+id/privacyFragment"
+		android:name="com.chethan.myapplication.PrivacyFragment"
+		android:label="VenueDetailFragment">
+
+	</fragment>
+
+
+</navigation>
